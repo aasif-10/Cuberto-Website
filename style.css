@@ -1,0 +1,372 @@
+/* BOILER PLATE */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "matter";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* MAIN STYLING */
+.main {
+  width: 100%;
+}
+
+/* PAGE 1 STYLING */
+.page1 {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+/* NAVBAR STYLING */
+
+.nav {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3vw 3vw;
+  height: 80px;
+}
+
+.nav img {
+  cursor: pointer;
+  width: 120px;
+}
+
+.right-part {
+  overflow: hidden;
+  display: flex;
+  gap: 25px;
+}
+
+.right-part h4 {
+  cursor: pointer;
+  font-size: 1.25vw;
+  font-weight: 400;
+}
+
+.right-part i {
+  cursor: pointer;
+  font-size: 1.2vw;
+}
+
+/* HEADING STYLING */
+.heading {
+  overflow: hidden;
+  margin-top: 12vw;
+  padding: 0 15vw;
+  padding-left: 14vw;
+  padding-bottom: 5px;
+}
+
+#top {
+  font-size: 1.3vw;
+  font-weight: 600;
+}
+
+#below {
+  margin-top: 10px;
+  font-size: 3.2vw;
+  font-weight: 900;
+}
+
+.heading-top {
+  overflow: hidden;
+}
+
+.heading-below {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+#below h1 {
+  color: white;
+  -webkit-text-stroke: 2px black; /* Outline color */
+  paint-order: stroke fill;
+}
+
+/* PARAGRAPH STYLING */
+.para {
+  font-size: 1.6vw;
+  margin-top: 15vw;
+  padding-left: 15vw;
+  width: 60%;
+  line-height: 45px;
+}
+
+.para::selection {
+  background-color: black;
+  color: white;
+}
+
+/* PAGE 3 STYLING */
+
+.page3 {
+  background-color: #fff;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.page3-heading {
+  margin-top: 20vw;
+  margin-left: 14.5vw;
+}
+
+.page3-heading h1 {
+  font-size: 4.5vw;
+  font-weight: 500;
+  letter-spacing: -3px;
+}
+
+.page3-para {
+  margin-top: 3vw;
+  margin-left: 14.5vw;
+  width: 36%;
+}
+
+.page3-para h2 {
+  text-align: justify;
+  line-height: 40px;
+  font-weight: 500;
+  font-size: 1.3vw;
+}
+
+/* CARD STYLING */
+.card-container {
+  margin-top: 7vw;
+  width: 100%;
+  height: fit-content;
+  padding: 0 5vw;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-evenly;
+}
+
+.box {
+  margin-top: 5px;
+  width: 30%;
+}
+
+.card {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.tag {
+  margin-top: 30px;
+  padding: 0.8vw;
+  font-size: 0.9vw;
+  width: fit-content;
+  border-radius: 30px;
+  background-color: #f5efef;
+}
+
+.box h3 {
+  width: fit-content;
+  margin-top: 30px;
+  font-size: 1.2vw;
+  font-weight: 500;
+}
+
+/* VIEW STYILING */
+
+.btn-container {
+  margin-top: 5vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.view-btn {
+  border: 1px solid #dadada;
+  background-color: white;
+  width: 230px;
+  height: 70px;
+  border-radius: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9vw;
+  font-weight: 600;
+  transform-origin: bottom;
+  transition: all 0.3s ease;
+}
+.view-btn:hover {
+  background-color: black;
+  color: white;
+}
+
+/* PAGE 4 STYLING */
+.page4 {
+  width: 100%;
+  min-height: 150vh;
+  background-color: white;
+}
+
+.page4-heading {
+  margin-top: 10vw;
+  margin-left: 14.5vw;
+}
+
+.page4-heading h1 {
+  font-size: 4.5vw;
+  font-weight: 500;
+  letter-spacing: -3px;
+}
+
+.image-container {
+  padding: 0 8vw;
+  padding-left: 10vw;
+  margin-top: 8vw;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.image-box {
+  width: 23%;
+  border-radius: 10px;
+}
+.page4-img {
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.page4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.description {
+  margin-top: 50px;
+}
+
+.des {
+  font-size: 0.9vw;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.des i {
+  font-size: 1.2vw;
+}
+
+.description p {
+  width: 95%;
+  margin-top: 40px;
+  font-size: 1vw;
+  line-height: 30px;
+}
+
+/* PAGE 5 STYLING */
+.page5 {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+/* PAGE 2 STYLING */
+.page2 {
+  width: 100%;
+  min-height: 100vh;
+}
+
+#p2-heading {
+  padding-top: 15vw;
+}
+.page2-heading h1 {
+  margin-left: 15vw;
+  font-size: 4.5vw;
+  font-weight: 500;
+}
+
+#p2 {
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+
+.container-1 {
+  width: 80%;
+  height: 100vh;
+  margin-top: 10vw;
+  margin-left: 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 45%;
+  height: inherit;
+}
+.right {
+  width: 45%;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.right-img {
+  width: 80%;
+  height: 95%;
+}
+
+.right-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.left {
+  overflow: hidden;
+}
+
+.left-elem {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  height: inherit;
+
+  padding-left: 5vw;
+}
+
+.left h2 {
+  font-size: 1.2vw;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.left h1 {
+  font-size: 2.5vw;
+  font-weight: 500;
+}
+
+.left h5 {
+  font-weight: 600;
+  color: #888686c6;
+  margin-top: 20px;
+  font-size: 0.9vw;
+}
